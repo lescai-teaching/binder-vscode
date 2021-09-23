@@ -1,6 +1,21 @@
 channels:
   - conda-forge
+  - bioconda
+  - defaults
 dependencies:
   - numpy
   - jupyter-server-proxy
   - code-server >=3.2
+  - conda-forge::biopython
+  - conda-forge::numpy
+  - conda-forge::matplotlib
+  - conda-forge::markdown
+  - conda-forge::pymdown-extensions
+  - conda-forge::pygments
+  - bioconda::fastqc
+  - bioconda::multiqc
+  - bioconda::gatk
+  - bioconda::snpeff=4.5covid19
+  - samtools
+  - bwa
+  - bowtie2
